@@ -1,0 +1,48 @@
+.general-detail{
+    border: 3px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    position: absolute;
+    top: 19%;
+    bottom: 14%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.detail-card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.detail-img-container  {
+    width: 50%;
+
+}
+
+.img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+}
+
+.product-detail{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 15px;
+}
+
+.product-detail h2{
+    font-size: 35px;
+}
+
+.product-detail p{
+    font-size: 20px;
+}
+

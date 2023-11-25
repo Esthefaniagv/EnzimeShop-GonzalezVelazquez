@@ -1,0 +1,75 @@
+ figure .image {
+
+     margin: 10px 0 10px 0;
+     border-radius: 15px;
+     display: block;
+ }
+
+ /*
+.productCard{
+    border: 5px solid green;
+} */
+
+ h2 {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     text-decoration: underline;
+     text-align: center;
+ }
+
+ .card-container {
+     width: 100%;
+     max-width: 400px;
+     margin: 2em auto;
+     background-color: white;
+     border-radius: 15px;
+     margin-bottom: 1rem;
+     border: 3px solid gray;
+     padding: 2rem;
+ }
+
+
+ .container {
+     position: relative;
+ }
+
+ .image {
+     display: block;
+     width: 100%;
+     height: auto;
+ }
+
+ .overlay {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: .5s ease;
+     border-radius: 15px;
+     background-color: grey;
+ }
+
+ .container:hover .overlay {
+     opacity: 0.8;
+ }
+
+ .text {
+     color: white;
+     font-size: 20px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     text-align: center;
+ }
+
+ section p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+ }

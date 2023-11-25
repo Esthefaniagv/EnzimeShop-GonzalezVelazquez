@@ -1,15 +1,16 @@
 import CardWidget from "../CardWidget/CardWidget";
+import { Link } from "react-router-dom";
 
 const NavBar = (props) => {
     let { img } = props;
     return (
         <nav id="navbar">
             <div className="navbarContainer">
-                <img src={img} alt="company logo" />
-                <button className="button-81">Home</button>
-                <button className="button-81">Decoración</button>
-                <button className="button-81" >Mesa</button>
-                <button className="button-81">Cocina</button>
+                <Link to="/"> <img className="navLogo" src={img} alt="company logo" /></Link>
+                <Link to={`/category/Home`}className="button-81" >Home</Link>
+                <Link to={`/category/Decoration`}className="button-81" >Decoration</Link>
+                <Link to={`/category/Tableware`}className="button-81" >Tableware</Link>
+                <Link to={`/category/Kitchen`}className="button-81" >Kitchen</Link>
             </div>
             <CardWidget />
         </nav>
@@ -19,12 +20,3 @@ const NavBar = (props) => {
 
 export default NavBar;
 
-{/* <nav id="navbar">
-<div>
-    <img src={img} alt="company logo" />
-    <button className="button-35">Home</button>
-    <button>Decoración</button>
-    <button>Mesa</button>
-    <button>Cocina</button>
-</div>
-</nav> */}

@@ -1,0 +1,16 @@
+.cardButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    justify-content: space-around;
+
+}
+
+.quantityBtn{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}

@@ -24,6 +24,10 @@ body {
 
 }
 
+.navLogo{
+    width: 150px;
+}
+
 .navbarContainer {
     width: 90%;
     display: flex;
@@ -112,16 +116,9 @@ body {
     outline: 0;
 }
 
-/* greeting component */
 
-.greetingMsg {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    font-family: 'Agbalumo', sans-serif;
-    font-size: 20px;
-}
+
+
 
 @media (min-width: 768px) {
     .button-56 {
